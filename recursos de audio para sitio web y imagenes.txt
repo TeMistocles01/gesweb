@@ -1,0 +1,21 @@
+
+/* ruta de audio https://www.epidemicsound.com/music/themes/corporate/hopeful-showreels/*/
+
+
+tema 1 Want you Back to me
+tema 2 brand new beginning
+tema 3 to the Moon
+
+
+/*
+https://www.istockphoto.com/es/planes-y-precios/oferta-premium-mas-video
+*/
+
+
+    <!--
+        https://play.google.com/store/apps/details?id=app.ges.antonio.usodegridview&hl=gsw   
+
+        https://www.istockphoto.com/es/foto/sistema-de-an%C3%A1lisis-de-negocio-y-gesti%C3%B3n-de-datos-analista-de-datos-creando-un-panel-gm1447332393-485176583
+        https://www.istockphoto.com/es/search/search-by-asset?affiliateredirect=true&assetid=1396019181&assettype=image&utm_campaign=ADP_photo_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fes%2Fphotos%2Finternet-pantalla-t%25C3%25A1ctil-3484137%2F&utm_medium=affiliate&utm_source=pixabay&utm_term=internet+touch+screen
+        https://www.istockphoto.com/es/search/2/image?phrase=seguridad&page=2
+    -->
