@@ -1734,7 +1734,7 @@ border-radius: 1em;
 
   margin: 0;
   padding: 0;
-  height: 102vh; /* Asegura que el cuerpo ocupe toda la altura de la pantalla */
+  height: 46em; /* Asegura que el cuerpo ocupe toda la altura de la pantalla */
   background-image: url('../images/slide1.jpg');
   background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
   background-position: center center; /* Centra la imagen */
@@ -1898,7 +1898,7 @@ border-radius: 1em;
 .container-img-estadistica{
 	margin: 0;
 	padding: 0;
-	height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la pantalla */
+	height: 46em; /* Asegura que el cuerpo ocupe toda la altura de la pantalla */
 	background-image: url('../images/estadis.jpg');
 	background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
 	background-position: center center; /* Centra la imagen */
@@ -2122,7 +2122,7 @@ color: #FFFFFF;
 
 
 
-/*--Beneficios---*/
+/*--Conocer mas---*/
 
 .container-beneficios{
     padding: 1.5em 0em 0em 0em;
@@ -2379,7 +2379,7 @@ color: #FFFFFF;
   }
 
   .footer-beneficios2 {
-	margin-top: 1em;
+	margin-top: 1.2em;
 	padding: 0.75em;
 	border: 2px solid rgb(236 239 241);
 	display: flex;
@@ -3460,12 +3460,13 @@ width: 100%;
   align-items: center;
   justify-content: center;
   gap: 20px;
-  padding-bottom: 1em;
+ 
 
 }
 
 
 .socialContainer {
+	
 	width: 35px;
 	height: 35px;
 	border-radius: 50%;
@@ -3476,6 +3477,7 @@ width: 100%;
 	overflow: hidden;
 	transition-duration: .3s;
 	/*background-color: #12708c;*/
+
   }
 
 /* instagram*/
@@ -11178,12 +11180,12 @@ color: #FFFFFF;
 	font-family: "Ubuntu", sans-serif;
   font-weight: 200;
   font-style: normal;
-  line-height: 3.1em; 
+  line-height: 3em; 
   }
 
 
   .footer-beneficios1 {
-	margin-top: 3.5em;
+	margin-top: 3.4em;
 	padding: 0.75rem;
 	border: 2px #FFFFFF solid;
 	/*border: 2px solid rgb(236 239 241);*/
@@ -11240,7 +11242,7 @@ color: #FFFFFF;
   font-family: "Ubuntu", sans-serif;
   font-weight: 200;
   font-style: normal;
-  line-height: 1.7em; 
+  line-height: 1.5em; 
   }
 
   .footer-beneficios2 {
@@ -11300,11 +11302,11 @@ color: #FFFFFF;
   font-family: "Ubuntu", sans-serif;
   font-weight: 200;
   font-style: normal;
-  line-height: 2.2em; 
+  line-height: 2em; 
   }
 
   .footer-beneficios3 {
-	margin-top: 1em;
+	margin-top: 1.3em;
 	padding: 0.75rem;
 	/*border: 2px solid rgb(236 239 241);*/
 	display: flex;
