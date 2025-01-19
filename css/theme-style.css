@@ -1217,11 +1217,37 @@ padding: 0em 0em 0em 0em;
 
 
 
+/*Imagen  you.tube*/
 .slider .da-slider .da-slide #youtube-icon-slider{
-	width: 6em;
-	height: 4em;
- 
+	width: 8em;
+	height: 4.5em;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	border-radius: 10px;
 }
+.feature-left .slider .da-slider1 .da-slide #llamada-img{
+	width: 6em;
+	height: 6em;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	border-radius: 50px;
+	padding: 1.5em;
+	
+	}
+
+	.feature-left .slider .da-slider1 .da-slide #cuadrantes-img{
+		width: 6em;
+		height: 6em;
+		box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	    border-radius: 50px;
+		padding: .7em;
+		}
+		
+		.feature-left .slider .da-slider1 .da-slide #policia-img{
+			width: 6em;
+			height: 6em;
+			box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	        border-radius: 50px;
+			padding: .7em;
+			}
 
 .da-slider{
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
@@ -3046,7 +3072,6 @@ form {
 
 
 .download-right .grande{
-	
 	color:#fff;
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 400;
@@ -3958,6 +3983,41 @@ nav a#pull {
 
 }
 
+/*Imagen  you.tube*/
+.slider .da-slider .da-slide #youtube-icon-slider{
+	width: 7.5em;
+	height: 4em;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	border-radius: 10px;
+}
+
+
+.feature-left .slider .da-slider1 .da-slide #llamada-img{
+	width: 6em;
+	height: 6em;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	border-radius: 50px;
+	padding: 1em;
+	
+	}
+
+	.feature-left .slider .da-slider1 .da-slide #cuadrantes-img{
+		width: 6em;
+		height: 6em;
+		box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	    border-radius: 50px;
+		padding: .8em;
+		}
+		
+		.feature-left .slider .da-slider1 .da-slide #policia-img{
+			width: 6em;
+			height: 6em;
+			box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	        border-radius: 50px;
+			padding: .8em;
+			}
+
+
 /*De su creacion*/
 .origen-container{
 	background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
@@ -4584,9 +4644,9 @@ iframe{
  .download{
 
 	width: 100%;
-	background: linear-gradient( #5fd9fe 94% ,#FFFFFF);
-	position: relative;
-	padding: 2em 0em;
+	background: #5fd9fe 94%;
+	
+	padding: .1em 0em;
 
 }
 
@@ -5172,8 +5232,6 @@ nav a#pull {
 	margin: 0em auto .5em auto;
 }
 
-
-
 .origen-container .container-center .card-origen-center .container-center-origen .container-img-multiple{
 	width: 50%;
 	padding: 0em 1em;
@@ -5662,6 +5720,41 @@ iframe{
 	  font-style: normal;
   
    }
+
+   /*Imagen  you.tube*/
+.slider .da-slider .da-slide #youtube-icon-slider{
+	width: 6em;
+	height: 3.5em;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	border-radius: 10px;
+}
+
+
+.feature-left .slider .da-slider1 .da-slide #llamada-img{
+	width: 6em;
+	height: 6em;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	border-radius: 50px;
+	padding: 1em;
+	
+	}
+
+	.feature-left .slider .da-slider1 .da-slide #cuadrantes-img{
+		width: 6em;
+		height: 6em;
+		box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	    border-radius: 50px;
+		padding: .8em;
+		}
+		
+		.feature-left .slider .da-slider1 .da-slide #policia-img{
+			width: 6em;
+			height: 6em;
+			box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	        border-radius: 50px;
+			padding: .8em;
+			}
+
 
 
  /* beneficios*/
@@ -6836,13 +6929,47 @@ iframe{
 	font-weight: 300;
 }
 
+/*Imagen  you.tube*/
+.slider .da-slider .da-slide #youtube-icon-slider{
+	width: 6em;
+	height: 3.5em;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	border-radius: 10px;
+}
+
+
+.feature-left .slider .da-slider1 .da-slide #llamada-img{
+	width: 5em;
+	height: 5em;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	border-radius: 50px;
+	padding: 1em;
+	
+	}
+
+	.feature-left .slider .da-slider1 .da-slide #cuadrantes-img{
+		width: 5em;
+		height: 5em;
+		box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	    border-radius: 50px;
+		padding: .7em;
+		}
+		
+		.feature-left .slider .da-slider1 .da-slide #policia-img{
+			width: 5em;
+			height: 5em;
+			box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	        border-radius: 50px;
+			padding: .7em;
+			}
+
+
 
  /*adquirir */
  .download{
+	background: #5fd9fe;
 	width: 100%;
-	background: linear-gradient( #5fd9fe 94% ,#FFFFFF);
-	position: relative;
-	padding: 1em 0em 3em 0em;
+	padding: .1em 0em;	
 }
 
 
@@ -7783,7 +7910,40 @@ iframe{
 	 .feature-right span{
 		 background-position:0 0;
 	 }
+
+/*Imagen  you.tube*/
+.slider .da-slider .da-slide #youtube-icon-slider{
+	width: 6em;
+	height: 3.5em;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	border-radius: 10px;
+}
+
+.feature-left .slider .da-slider1 .da-slide #llamada-img{
+	width: 5em;
+	height: 5em;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	border-radius: 40px;
+	padding: 1em;
 	
+	}
+
+	.feature-left .slider .da-slider1 .da-slide #cuadrantes-img{
+		width: 5em;
+		height: 5em;
+		box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	    border-radius: 40px;
+		padding: .7em;
+		}
+		
+		.feature-left .slider .da-slider1 .da-slide #policia-img{
+			width: 5em;
+			height: 5em;
+			box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	        border-radius: 40px;
+			padding: .7em;
+			}
+
 	
 	
 	/* sitios de implementacion*/
@@ -8016,17 +8176,6 @@ iframe{
 	
 	
 	
-	/*Imagen */
-	.slider .da-slider .da-slide #youtube-icon-slider{
-		width: 5em;
-		height: 3.5em;
-	}
-	
-	.feature-left .slider .da-slider1 .da-slide #llamada-img{
-	width: 5em;
-	height: 3.5em;
-	}
-	
 	 /* Beneficios*/
 	
 	 .container-beneficios{
@@ -8243,8 +8392,6 @@ iframe{
 	border: none;
 	padding: 1em 1em;
 	text-align: center;
-	
-
   } 
 
   .info-card3 {
@@ -8310,10 +8457,9 @@ iframe{
 	
 	/*abquirir*/
 	.download{
-		background: linear-gradient( #5fd9fe 95%,#FFFFFF);
-		padding: 1em 0em 2em 0em;
-		width: 100%;
-		position: relative;
+		background: #5fd9fe;
+	width: 100%;
+	padding: .1em 0em;	
 		
 	}
 	
@@ -8771,12 +8917,6 @@ font-size: 1em;
 .slider .da-slider .slide-text p{
 	line-height: 1.5em;
 }
-/*Imagen  you.tube*/
-.slider .da-slider .da-slide #youtube-icon-slider{
-	width: 4em;
-	height: 3em;
-}
-
 
 /* configure llamadas de emergencia */
 .feature{
@@ -8794,12 +8934,7 @@ font-size: 1em;
 	font-size: 1.4em;
 }
 
-/*Imagen  you.tube
-.slider .da-slider .da-slide #youtube-icon-slider{
-	width: 4em;
-	height: 3em;
-}
-*/
+
 .feature-right{
 	margin-top: 1.5em;
 	float:right;
@@ -8816,10 +8951,43 @@ font-size: 1em;
 	/*background-color: red;*/
 }
 
+/*Imagen  you.tube*/
+.slider .da-slider .da-slide #youtube-icon-slider{
+	width: 6em;
+	height: 3.5em;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	border-radius: 10px;
+}
+
+
 .feature-left .slider .da-slider1 .da-slide #llamada-img{
-	width: 4em;
-	height: 3em;
+	width: 5em;
+	height: 5em;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	border-radius: 40px;
+	padding: 1em;
+	
 	}
+
+	.feature-left .slider .da-slider1 .da-slide #cuadrantes-img{
+		width: 5em;
+		height: 5em;
+		box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	    border-radius: 40px;
+		padding: .7em;
+		}
+		
+		.feature-left .slider .da-slider1 .da-slide #policia-img{
+			width: 5em;
+			height: 5em;
+			box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	        border-radius: 40px;
+			padding: .7em;
+			}
+
+
+
+
 
 /*espaciado de textos slider */
 .slider .da-slider1 .slide-text p{
@@ -9853,9 +10021,9 @@ form {
 
 
 .download{
-	background: linear-gradient( #5fd9fe 97%,#FFFFFF);
+	background: #5fd9fe;
 	width: 100%;
-	padding: 2em 0em;	
+	padding: .1em 0em;	
 }
 
 /*texto*/
@@ -10013,8 +10181,6 @@ form {
 	  outline-offset: 0;
 	}
   }
-
-
 
 
 	  .container-loader12-adquirir{
@@ -10446,29 +10612,51 @@ form {
 
 }
 
-/*espaciado de textos slider */
-.slider .da-slider .slide-text p{
-	line-height: 1.5em;
-	
-	
-}
-/*Imagen  you.tube*/
-.slider .da-slider .da-slide #youtube-icon-slider{
-	width: 4em;
-	height: 3em;
-}
+
+
 
 .slider .da-slider1 .slide-text p{
+	text-align: start;
 	line-height: 1.5em;
 	font-weight:  400;
 	
 }
 
 
+/*Imagen  you.tube*/
+.slider .da-slider .da-slide #youtube-icon-slider{
+	width: 6em;
+	height: 3.5em;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	border-radius: 10px;
+}
+
 .feature-left .slider .da-slider1 .da-slide #llamada-img{
-	width: 4em;
-	height: 3em;
+	width: 5em;
+	height: 5em;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	border-radius: 40px;
+	padding: 1em;
+	
 	}
+
+	.feature-left .slider .da-slider1 .da-slide #cuadrantes-img{
+		width: 5em;
+		height: 5em;
+		box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	    border-radius: 40px;
+		padding: .7em;
+		}
+		
+		.feature-left .slider .da-slider1 .da-slide #policia-img{
+			width: 5em;
+			height: 5em;
+			box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	        border-radius: 40px;
+			padding: .7em;
+			}
+		
+
 
 /* configure llamadas de emergencia */
 
@@ -10801,10 +10989,6 @@ form {
 	height: max-content;
 	margin-top: 7em;
 	display: block;
-	
-	
-	
-
 }
 
 .img-derecha-columna{
@@ -10814,7 +10998,6 @@ form {
 	align-items: center;
 	justify-content: center;
 	
-		
 }
 
 .img-izquierda-columna{
@@ -11595,10 +11778,11 @@ width: 100%;
 
 
 .download{
-	background: linear-gradient( #5fd9fe 97%,#FFFFFF);
-	padding: 1em 0em 2em 0em;
+	/*background: linear-gradient( #5fd9fe 97%,#FFFFFF);*/
+	padding: 1em 0em .5em 0em;
 	width: 100%;
 	position: relative;
+	background-color:  #5fd9fe;
 }
 
 .download-right{
@@ -11814,6 +11998,7 @@ width: 100%;
 	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 	width: 100%;
 	height: max-content;
+	padding-top: .1em;
 
 }
 

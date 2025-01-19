@@ -732,9 +732,15 @@
 		
 
 	}
+	.da-slider1 .da-img{
+		top:4em;
+		right:90%; 
+		
+	}
+
 }
 
-@media all and (min-width:768px) and (max-width:800px){
+@media all and (min-width:769px) and (max-width:800px){
 
 	.da-slider {
 		width: 350px;
@@ -761,7 +767,7 @@
 
 }
 
-@media all and (min-width:641px) and (max-width:767px){
+@media all and (min-width:641px) and (max-width:768px){
 
 	.da-slider {
 		width: 305px;
@@ -773,15 +779,21 @@
 	/*Imagen  youtube*/
 
 	.da-slider .da-img{
-		text-align: center;
-		width: 30%;
-		top:9em;
-		right: 110%; /*60%*/
+		
+		top:7.5em;
+		right: 90%; /*60%*/
+		
 	}
 
+	.da-slider1 .da-img{
+		top:7.5em;
+		right:90%; /*60%*/
+		
+	}
+
+	
 	/* slider bajo*/
 	.da-slider1{
-		
 		width: 305px;
  		height:170px;
 		left: -20px;
@@ -818,7 +830,7 @@
 	/*Imagen  youtube*/
 
 	.da-slider .da-img{
-		text-align: center;
+		
 		width: 30%;
 		top:8em;
 		right: 110%; /*60%*/
@@ -827,7 +839,7 @@
 
 /*Imagen  llamada*/
 .da-slider1 .da-img{
-	text-align: center;
+	
 	width: 30%;
 	top:7em;
 	right: 110%; /*60%*/
@@ -864,28 +876,30 @@
    }
 	.da-slide {	
 		top: -90px;
-		margin-left: -5px;
+		margin-left: -15px;
 	}
 
 
 	/*Imagen  youtube*/
 
 	.da-slider .da-img{
-		text-align: center;
+	
 		width: 30%;
 		top:9em;
 		right: 110%; /*60%*/
 	}
 
+	
 
 	/*Imagen  llamada*/
 
 	.da-slider1 .da-img{
-		text-align: center;
+		
 		width: 30%;
-		top:9em;
+		top:8em;
 		right: 110%; /*60%*/
 	}
+
 	
   /* circulos */
 	.da-dots {
