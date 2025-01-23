@@ -987,10 +987,6 @@ padding: 0em 0em 0em 0em;
 	font-style: normal;
 }
 
-.container-card-funciones{
-
-	margin-top: 1em;
-}
 
 /* card frontal */
 .container-card-funciones .features-grid .card-container {
@@ -1002,6 +998,7 @@ padding: 0em 0em 0em 0em;
 	overflow: hidden;
 	margin-left: auto;
 	margin-right: auto;
+	
   }
   
   
@@ -1011,6 +1008,7 @@ padding: 0em 0em 0em 0em;
 	border-radius: inherit;
 	background: linear-gradient( #5fd9fe 50% ,#FFFFFF);
 	border: 1px #FFFFFF solid;
+	
 
   }
   
@@ -1034,7 +1032,12 @@ padding: 0em 0em 0em 0em;
 	transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
   }
   
-  .container-card-funciones .features-grid .text-funciones h3{
+  
+  .features-Funciones-Destacadas .container-card-funciones .text-funciones{
+	padding: 1.4em;
+  }
+
+  .features-Funciones-Destacadas .container-card-funciones .features-grid .text-funciones h3{
 	text-align: center;
 	color: #FFFFFF;
 	font-family: "Ubuntu", sans-serif;
@@ -1042,8 +1045,8 @@ padding: 0em 0em 0em 0em;
 	font-style: normal;
 	font-size: 1.5em;
 	
-	
   }
+
   .card-container .cardD .content {
 	position: absolute;
 	top: 0;
@@ -1293,19 +1296,30 @@ padding: 0em 0em 0em 0em;
 	background:url(../images/celular-derecho-nuevo.png) no-repeat 0px 0px;
 }
 
-#llamada-img{
-	width: 5em;
-	height: 5em;
-}
-#cuadrantes-img{
+.feature-left .slider .da-slider1 .da-slide #llamada-img{
 	width: 6em;
-	height: 4em;
+	height: 6em;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	border-radius: 50px;
+	padding: 1em;
+	
+	}
 
-}
-#policia-img{
+.feature-left .slider .da-slider1 .da-slide #cuadrantes-img{
 	width: 6em;
-	height: 4em;	
-}
+	height: 6em;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	border-radius: 50px;
+	padding: 1em;
+	}
+
+.feature-left .slider .da-slider1 .da-slide #policia-img{
+			width: 6em;
+			height: 6em;
+			box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	        border-radius: 50px;
+			padding: 1em;
+			}
 
 .da-slider1{
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
@@ -1459,7 +1473,6 @@ padding: 0em 0em 0em 0em;
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 	position: relative;
 	margin: 0em 1em;
-		
 }
 
 
@@ -1578,6 +1591,7 @@ padding: 0em 0em 0em 0em;
 	text-align: center;
 	padding: .3em 0em;
 	
+	
 }
 
 .text-car{
@@ -1642,6 +1656,7 @@ border-radius: 1em;
 	width: 14em;
 	height:7em;
 	border-radius: 5px;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 }
 
 
@@ -4120,6 +4135,7 @@ nav a#pull {
 	width: 13em;
 	height:7em;
 	border-radius: 5px;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 }
 
 .container-4-img-flex{
@@ -5306,6 +5322,7 @@ nav a#pull {
 	width: 15em;
 	height:7em;
 	border-radius: 5px;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 }
 
 /*  cambia tamaño de cards 4 */
@@ -6612,6 +6629,7 @@ left: 20px;
 		width: 14em;
 		height:7em;
 		border-radius: 5px;
+		box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 	}
 
 
@@ -7763,6 +7781,7 @@ iframe{
 		width: 15em;
 		height:6em;
 		border-radius: 5px;
+		box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 	}
 	
 	.container-loader .loader5 {
@@ -9154,6 +9173,7 @@ font-size: 1em;
 	width: 14em;
 	height:6em;
 	border-radius: 5px;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 }
 
 
@@ -10494,6 +10514,7 @@ form {
 
 }
 
+
 .features-Funciones-Destacadas .titles-principal{
 	text-align: center;
 	margin-top: .5em;	
@@ -10525,7 +10546,7 @@ form {
 
 	.features-Funciones-Destacadas .seleccione p{
 		color: #FFFFFF;
-		font-size: 1.2em;
+		font-size: 1.1em;
 		font-family: "Ubuntu", sans-serif;
 		font-weight: 300;
 		font-style: normal;
@@ -10550,6 +10571,20 @@ form {
 	 }
 
 
+	 .features-Funciones-Destacadas .container-card-funciones .text-funciones{
+		padding: .8em;
+	  }
+	  .features-Funciones-Destacadas .container-card-funciones .features-grid .text-funciones h3{
+		text-align: center;
+		color: #FFFFFF;
+		font-family: "Ubuntu", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 1.2em;
+		
+	  }
+	
+	
 .container-card-funciones .features-grid .card-container {
 		width: 18em;
 		display: flex;
@@ -10849,6 +10884,7 @@ form {
 	width: 11em;
 	height:6em;
 	border-radius: 5px;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 }
 
 
