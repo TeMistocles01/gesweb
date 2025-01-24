@@ -1276,7 +1276,7 @@
 
 				<div class="modal_container">
 			
-				<form>
+					<form action="https://formsubmit.co/3a49eb31e888e119a6e4359db599ae9f" method="POST" />
 						
 					<div class="container-titulo-form">
 
@@ -1296,22 +1296,22 @@
 
 					
 					<div class="inputGroup">
-						<input type="text" required=""  id="name" autocomplete="off">
+						<input type="text" name="Nombre" required=""  id="name" autocomplete="off">
 						<label for="name">Nombre completo</label>
 					</div>
 	
 					<div class="inputGroup">
-						<input type="email" required="" id="correo" autocomplete="off">
+						<input type="email" name="Email" required="" id="correo" autocomplete="off">
 						<label for="correo">Correo Electrónico</label>
 					</div>
 	
 					<div class="inputGroup">
-						<input type="text" required="" id="telefono" autocomplete="off">
+						<input type="text" name="Teléfono" required="" id="telefono" autocomplete="off">
 						<label for="telefono">Teléfono</label>
 					</div>
 	
 					<div class="inputGroup">
-						<textarea cols="52" rows="4" id="mensaje" autocomplete="off"></textarea>
+						<textarea cols="52" name="Mensaje" rows="4" id="mensaje" autocomplete="off"></textarea>
 						<label for="mensaje">Mensaje</label>
 					</div>
 	               
@@ -1337,10 +1337,15 @@
 
 						<div class="botones">
 
-							<button class="btn_enviar" id="bt">
+							<button type="submit" class="btn_enviar" onclick="cerrar()" id="bt">
 								<span class="msg" id="msg"></span>
 								Enviar
 							</button>
+
+							
+							<input type="hidden" name="_next" value="http://127.0.0.1:5501">
+							<input type="hidden" name="_captcha" value="false">
+								
 
 							<button class="btn_salir_formulario">
 								<svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
@@ -1359,15 +1364,7 @@
 
 								 
 								
-
-	                             <!--
-									<input type="submit" value="Enviar" class="btn_enviar_formulario">
-								
-									<input type="submit" value="Salir" class="btn_salir_formulario">
-								
-								 -->
 							
-								
 									
 								
 						</div>
@@ -1637,6 +1634,21 @@
 				<!-----//End-conatiner---->
 
 				<script src="js/modal.js"> </script>
+				<script>
+					function cerrar() { 
+						
+					
+
+						formularioModal.classList.remove('modal--show');
+
+};
+
+
+				
+					
+				</script>
+
+				
 
 
 

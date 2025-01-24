@@ -10,8 +10,11 @@ openModal.addEventListener('click',(e)=>{
     e.preventDefault();
 
     formularioModal.classList.add('modal--show');
+   
+    
 
 });
+
 
 closeModal.addEventListener('click',(e)=>{
 
@@ -20,3 +23,4 @@ closeModal.addEventListener('click',(e)=>{
     formularioModal.classList.remove('modal--show');
 
 });
+
