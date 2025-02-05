@@ -1200,13 +1200,6 @@
 								 
 								</div>
 								
-
-
-								
-								
-								
-								
-									
 								
 							</div>
 						</div>
@@ -1243,22 +1236,11 @@
 								<p>◽Lugares más confiables y seguros.</p><br>
 								<p>◽Puede ser implementado como un sistema extra de seguridad.</p> <br>
 								<p>◽Al implementar GES contribuye con la seguridad en tu localidad.</p>
-
-
 								</div>
-			
-			
 								<div class="footer-beneficios3">
 								  <p class="tag">Versión 7.0</p>
 								 
-								</div>
-
-
-
-
-								
-
-								
+								</div>	
 							</div>
 						</div>
 						
@@ -1267,19 +1249,16 @@
 	
 				</div>
 
+  
 
-
-
-				<!-- start form  modal-->
 				
 				<section class="modal" >
 
 				<div class="modal_container">
 			
-					<form action="https://formsubmit.co/3a49eb31e888e119a6e4359db599ae9f" method="POST" />
+		<form action="https://formsubmit.co/3a49eb31e888e119a6e4359db599ae9f" method="POST" />
 						
 					<div class="container-titulo-form">
-
 						<p class="titulo-modal">Registro</p>
 						<div  class="container-loader">	
 							<div class="loader1">
@@ -1289,12 +1268,8 @@
 							</div>
 		
 						</div>
-		
-					
 					</div>
 
-
-					
 					<div class="inputGroup">
 						<input type="text" name="Nombre" required=""  id="name" autocomplete="off">
 						<label for="name">Nombre completo</label>
@@ -1315,70 +1290,51 @@
 						<label for="mensaje">Mensaje</label>
 					</div>
 	               
-					<!--
-					
-					
-					
-					<div class="options">
-						<label id="label-option" for="names">Implementación en:</label>
-						<select name="names" id="names">
-						<option value="valor1">Sector privado</option>
-						<option value="valor1">Gobierno</option>
-						<option value="valor1">Negocio particular</option>
-						<option value="valor1">Unidad habitacional</option>
-						<option value="valor1">Residenciales</option>
-						<option value="valor1">Otro</option>
-						</select>
-		
-	
+
+
+					<div class="botones">
+						<button type="submit" class="btn_enviar" id="bt">
+							<span class="msg" id="msg"></span>
+							Enviar
+						</button>
+				
+						
+						<button type="button" class="btn_salir_formulario">
+							<svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+								<path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+							</svg>
+							<span class="text">Salir</span>
+							<span class="circle"></span>
+						</button>
 					</div>
-					-->
 
-
-						<div class="botones">
-
-							<button type="submit" class="btn_enviar" onclick="cerrar()" id="bt">
-								<span class="msg" id="msg"></span>
-								Enviar
-							</button>
-
-							
-							<input type="hidden" name="_next" value="http://127.0.0.1:5501">
-							<input type="hidden" name="_captcha" value="false">
-								
-
-							<button class="btn_salir_formulario">
-								<svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
-									<path
-									d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
-									></path>
-								</svg>
-								<span class="text">Salir</span>
-								<span class="circle"></span>
-								<svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
-									<path
-									d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
-									></path>
-								</svg>
-								</button>
-
-								 
-								
-							
-									
-								
-						</div>
-	
+					   <input type="hidden" name="_template" value="box">
+					    <input type="hidden" name="_next" value="http://127.0.0.1:5501">
+						<input type="hidden" name="_captcha" value="false">
 						
 					
 				</form>
+
 	
+				
 				</div>
-	
+
+				<!-- Modal de éxito (mensaje de envío de datos) -->
 				</section>
 				<!--end modal--->
 	
-	
+				<!-- modal user-->
+				<section class="modal" id="modalExito">
+					<div class="modal_container">
+						<div class="container-titulo-form">
+							<p class="titulo-modal">¡Datos enviados con éxito!</p>
+						</div>
+						
+						
+					</div>
+				</section>
+				
+				
 				<!-----start-download---->
 				<div id="adquirir" class="download">
 
@@ -1483,10 +1439,8 @@
 									<li><a class="cl-icon5-l"><span> </span></a></li>
 								
 								</ul>
-
-														
+						
 						</div>
-
 
 						<div class="col-md-6 compatibility-right">
 							<h4>Novedades y próximas funciones</h4>
@@ -1494,9 +1448,6 @@
 								<p>✪ <strong> Novedad: </strong>Esta nueva versión cuenta con una interfaz más intuitiva brindando una mejor experiencia de usuario.</p><br>
 								<p>✪ <strong> Próximamente: </strong>Opción de validación por fotografía.</p><br>
 								<p>✪ <strong> Próximamente: </strong>Soporte para tablet.</p>
-
-								
-							
 							
 							<ul class="list-unstyled list-inline">
 								
@@ -1509,23 +1460,15 @@
 						<div class="clearfix"> </div>
 					</div>
 
-
-
 				</div>
-
 
 				</div>
 				<!----- //End-Compatibility----->
 
 				<!-----start-footer----->
-				
-					
 
 				<footer class="pie-pagina">
 
-				
-					
-					
 					<div class="grupo-1">
 
 						<div class="box">
@@ -1579,7 +1522,7 @@
 							
 							<div class="social-container">
 										
-										<a class="socialContainer containerThree" href="http://www.linkedin.com/in/antonio-aquino-de-la-luz-a118b573" target="_blank" rel="noopener noreferrer">
+										<a class="socialContainer containerThree" href="https://www.linkedin.com/in/antonio-aquino-de-la-luz-a118b573" target="_blank" rel="noopener noreferrer">
 											<svg viewBox="0 0 448 512" class="socialSvg linkdinSvg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
 										  </a>
 	
@@ -1634,20 +1577,8 @@
 				<!-----//End-conatiner---->
 
 				<script src="js/modal.js"> </script>
-				<script>
-					function cerrar() { 
-						
-					
-
-						formularioModal.classList.remove('modal--show');
-
-};
-
-
 				
-					
-				</script>
-
+				
 				
 
 

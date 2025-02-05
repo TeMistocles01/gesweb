@@ -2616,6 +2616,16 @@ color: #FFFFFF;
     transform: perspective(600px) rotateY(360deg);
 }
 
+.modal--show {
+    display: block;  /* Esto hace que el modal se vea */
+}
+
+.modal {
+    display: none;  /* Esto oculta el modal cuando no está activo */
+}
+
+/* Otros estilos para los modales, botones, etc. */
+
 /* formulario*/
 
 .modal{
@@ -2654,6 +2664,7 @@ color: #FFFFFF;
     transform: var(--transform);
     transition: var(--transition);
 }
+
 
 .container-titulo-form{
 	text-align: center;
